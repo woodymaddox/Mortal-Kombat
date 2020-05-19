@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <script src="jquery-1.12.4.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Mortal Kombat2</title>
+</head>
+<body>
+  <div class="background"></div>
+  <div class="container pos-rel">
+
+  <nav class="navbar navbar-light bg-warning">
+    <span class="navbar-brand mb-0 h1">Mortal Kombat</span>
+  </nav>
+  <div class="background"></div>
+
+    
+    <div class="jumbotron mt-3 bg-secondary" id="initJumbo">
+      <h1 class="display-4">Welcome to Mortal Kombat</h1>
+      <p class="lead">Information about the tournament.</p>
+      <hr class="my-4">
+      <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+      <a class="btn btn-dark btn-lg" href="#" onclick="hideJumbo()" role="button">Enter Tournamnet</a>
+    </div>
+
+    <div id="ninjaForm" class="d-none">
+      <h2> Enter Your Name</h2>
+      <div class="form-group row">
+        <label class="col col-auto" for="studentsName">Player: </label>
+        <div class="col">
+          <input type="text" class="form-control" id="playerName" placeholder="Enter Name">
+        </div>
+
+        <div class="col col-auto">
+          <button onclick="ninjaSorting()" class="btn btn-primary mb-2">Play</button>
+        </div>
+      </div>
+
+      <div id="ninjaCards"></div>
+
+      <div id="ninjaList" class="row"></div>
+
+</div>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+</body>
+
+</html>

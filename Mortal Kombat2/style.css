@@ -1,0 +1,25 @@
+
+body {
+    background-image: url(https://4.bp.blogspot.com/-7z1T-LDvGZA/XMXR-2-hXQI/AAAAAAAAB4o/njEDXOuOrE0px5KCbLKJ2RahjIIggD9RACKgBGAs/w0/scorpion-mortal-kombat-11-uhdpaper.com-4K-177.jpg);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-size: cover;
+    background-position: center;
+      }
+
+ .card {
+    
+        background-color: goldenrod;
+        background-size: cover;
+        background-position: center;
+           
+    }
+
+    #ninjaForm {
+
+    color: white;
+
+    }
